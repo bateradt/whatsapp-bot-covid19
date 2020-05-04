@@ -1,20 +1,21 @@
 {
-  "name": "whatsapp-covid-19-bot",
+  "name": "manei-chatbot-financeiro",
   "version": "1.0.0",
-  "description": "Bot para whatsapp que informa sobre o COVID-19",
-  "author": "Carlos G. Godri",
+  "description": "Chatbot para controle e educação financeira",
+  "author": "Marcelo F. Scarpim",
   "license": "MIT",
-  "homepage": "https://github.com/godrix/whatsapp-bot-covid19#readme",
+  "homepage": "https://github.com/bateradt/manei-chatbot-financeiro#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/godrix/whatsapp-bot-covid19.git"
+    "url": "git+https://github.com/bateradt/manei-chatbot-financeiro.git"
   },
   "bugs": {
-    "url": "https://github.com/godrix/whatsapp-bot-covid19/issues"
+    "url": "https://github.com/bateradt/manei-chatbot-financeiro/issues"
   },
   "main": "index.js",
   "scripts": {
-    "start":"node ./src/services/covid-19.js & node index.js "
+    "start": "node index.js "
+    
   },
   "dependencies": {
     "node-fetch": "^2.6.0",
